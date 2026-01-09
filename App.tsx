@@ -240,7 +240,7 @@ const App: React.FC = () => {
                       referrerPolicy="no-referrer"
                       loading="lazy"
                       onError={() => {
-                        // STRICT FIX: Never log the error object itself as it may contain circular references
+                        // FIX: Never log the event object to avoid circular reference errors in stringification
                         setImgError(true);
                       }}
                     />

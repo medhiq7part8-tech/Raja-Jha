@@ -131,6 +131,6 @@ export const CONTACT_INFO = {
   facebook: 'https://www.facebook.com/share/17iHpVyuKx/?mibextid=wwXIfr',
   instagram: 'https://www.instagram.com/hey_rjha_here?igsh=MXZjc3dhNGxlZ2Q3cw%3D%3D&utm_source=qr',
   linkedin: 'https://www.linkedin.com/in/raja-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-  // Using the thumbnail API which is much more reliable for public embedding
+  // Using the thumbnail API for high-reliability embedding
   profileImage: 'https://drive.google.com/thumbnail?id=1Ah-wPULCJTC2HhetDuc1yT8rVc9JcI5m&sz=w1000'
 };
